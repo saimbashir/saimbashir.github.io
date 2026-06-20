@@ -1,0 +1,21 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Saim Bashir profile placeholder</title>
+  <desc id="desc">A clean placeholder image with Saim Bashir initials.</desc>
+  <rect width="960" height="1200" fill="#151922"/>
+  <path d="M0 0H960V1200H0V0Z" fill="url(#paint0_linear)"/>
+  <path d="M0 856L960 428V1200H0V856Z" fill="#0F766E" fill-opacity="0.88"/>
+  <path d="M690 140C780 196 824 290 820 422C815 577 714 750 562 842C411 933 246 919 155 814C64 709 78 543 185 396C291 249 461 83 690 140Z" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="480" cy="446" r="170" fill="#F7F8FB" fill-opacity="0.14"/>
+  <circle cx="480" cy="398" r="92" fill="#F7F8FB"/>
+  <path d="M277 741C300 632 378 562 480 562C582 562 660 632 683 741H277Z" fill="#F7F8FB"/>
+  <rect x="118" y="910" width="724" height="132" rx="8" fill="#F7F8FB" fill-opacity="0.92"/>
+  <text x="480" y="982" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="800" fill="#151922">SAIM BASHIR</text>
+  <text x="480" y="1034" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0F766E">PROFILE PHOTO PLACEHOLDER</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="64" x2="908" y2="1160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F8FB" stop-opacity="0.2"/>
+      <stop offset="0.47" stop-color="#151922" stop-opacity="0"/>
+      <stop offset="1" stop-color="#B45309" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+</svg>

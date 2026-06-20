@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Saim Bashir is a product-minded app developer and 4th-semester student with strong business instincts.">
+    <title>Saim Bashir | Product-Minded App Developer</title>
+    <script>
+      (function () {
+        var savedTheme = localStorage.getItem("theme");
+        var systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = savedTheme || systemTheme;
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Saim Bashir home">
+        <span class="brand-mark">SB</span>
+        <span>Saim Bashir</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#strengths">Strengths</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 14.4A7.8 7.8 0 0 1 9.6 4 8 8 0 1 0 20 14.4Z"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero-section">
+        <div class="hero-content">
+          <p class="section-kicker">4th-semester student | App builder | Business thinker</p>
+          <h1>Saim Bashir</h1>
+          <p class="hero-lede">
+            A young product-minded developer who can turn early business ideas into sharp app concepts,
+            practical user flows, and buildable digital products.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="mailto:saimbashirkhan25@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+              Email Saim
+            </a>
+            <a class="button button-secondary" href="#strengths">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 5v14M5 12h14"></path>
+              </svg>
+              View Strengths
+            </a>
+          </div>
+
+          <div class="signal-strip" aria-label="Profile highlights">
+            <div>
+              <strong>Business First</strong>
+              <span>Ideas shaped around users, markets, and practical value.</span>
+            </div>
+            <div>
+              <strong>Build Ready</strong>
+              <span>Comfortable moving from concept to interface to working app.</span>
+            </div>
+            <div>
+              <strong>Early Talent</strong>
+              <span>4th-semester energy with unusually mature product instincts.</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="portrait-area" aria-label="Profile photo area">
+          <div class="portrait-frame">
+            <img
+              id="profilePhoto"
+              src="assets/profile-placeholder.svg"
+              data-real-src="assets/profile.jpg"
+              alt="Saim Bashir profile placeholder"
+            >
+          </div>
+          <p class="portrait-note">Add the final photo as <strong>assets/profile.jpg</strong>.</p>
+        </aside>
+      </section>
+
+      <section id="strengths" class="section-wrap">
+        <div class="section-heading">
+          <p class="section-kicker">Where he stands out</p>
+          <h2>Useful talent for teams that care about product speed.</h2>
+        </div>
+
+        <div class="strength-grid">
+          <article class="strength-card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 19V5h16v14H4Z"></path>
+                <path d="M8 9h8M8 13h5"></path>
+              </svg>
+            </span>
+            <h3>App Development</h3>
+            <p>Builds clean, usable app experiences from rough ideas, focusing on what users actually need first.</p>
+          </article>
+
+          <article class="strength-card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 18c4-8 8-12 16-12"></path>
+                <path d="M14 6h6v6"></path>
+                <path d="M4 18h16"></path>
+              </svg>
+            </span>
+            <h3>Business Ideas</h3>
+            <p>Thinks beyond code: market angle, monetization, positioning, and how an idea can become a real offer.</p>
+          </article>
+
+          <article class="strength-card">
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z"></path>
+              </svg>
+            </span>
+            <h3>Fast Execution</h3>
+            <p>Good fit for prototype-heavy work where a team needs someone who can test, adapt, and keep moving.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="approach" class="section-wrap approach-section">
+        <div class="section-heading">
+          <p class="section-kicker">Working style</p>
+          <h2>From idea to first usable version.</h2>
+        </div>
+
+        <div class="timeline" aria-label="Saim Bashir working approach">
+          <article class="timeline-item">
+            <span>01</span>
+            <div>
+              <h3>Clarify the opportunity</h3>
+              <p>Start with the customer, the pain point, and the business reason the product should exist.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>02</span>
+            <div>
+              <h3>Shape the product</h3>
+              <p>Translate the idea into flows, screens, features, and a realistic first version.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>03</span>
+            <div>
+              <h3>Build and improve</h3>
+              <p>Create the app, collect feedback, and keep tightening the experience until it feels useful.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-wrap company-section">
+        <div class="company-panel">
+          <div>
+            <p class="section-kicker">For companies</p>
+            <h2>A junior profile with founder-style thinking.</h2>
+          </div>
+          <p>
+            Saim is early in his academic journey, but his strongest value is the combination companies often
+            need in young talent: curiosity, product sense, business thinking, and the ability to start building.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-copy">
+          <p class="section-kicker">Contact</p>
+          <h2>Open to internships, app projects, and product-focused opportunities.</h2>
+          <p>For opportunities, collaborations, or interviews, reach Saim directly by email.</p>
+        </div>
+
+        <a class="contact-card" href="mailto:saimbashirkhan25@gmail.com" aria-label="Email Saim Bashir">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>saimbashirkhan25@gmail.com</strong>
+            <small>Send an email</small>
+          </span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Saim Bashir</span>
+      <a href="mailto:saimbashirkhan25@gmail.com">saimbashirkhan25@gmail.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

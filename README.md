@@ -2,15 +2,15 @@
 
 Static portfolio site for Saim Bashir.
 
-## Update the profile photo
+## Profile photo
 
-Add the final portrait as:
+The site uses:
 
 ```text
-assets/profile.jpg
+assets/saim_picture.png
 ```
 
-No HTML changes are needed.
+Replace that file to update the portrait.
 
 ## Publish on GitHub Pages
 

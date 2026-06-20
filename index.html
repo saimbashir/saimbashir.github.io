@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Saim Bashir is a product-minded app developer and 4th-semester student with strong business instincts.">
+    <meta
+      name="description"
+      content="Saim Bashir is a 4th-semester student, product-minded app developer, and business idea builder."
+    >
     <title>Saim Bashir | Product-Minded App Developer</title>
     <script>
       (function () {
@@ -22,8 +25,11 @@
       </a>
 
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="#strengths">Strengths</a>
-        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -39,79 +45,126 @@
     </header>
 
     <main id="top">
-      <section class="hero-section">
-        <div class="hero-content">
-          <p class="section-kicker">4th-semester student | App builder | Business thinker</p>
-          <h1>Saim Bashir</h1>
+      <section class="hero">
+        <div class="portrait-wrap" aria-label="Saim Bashir profile photo">
+          <img src="assets/saim_picture.png" alt="Portrait of Saim Bashir">
+          <div class="portrait-caption">
+            <span>Open to internships and app projects</span>
+            <strong>4th Semester</strong>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Product-minded app developer</p>
+          <h1>Hi, I'm Saim Bashir</h1>
+          <p class="role-line">App Builder • Business Ideas • Early Product Thinking</p>
           <p class="hero-lede">
-            A young product-minded developer who can turn early business ideas into sharp app concepts,
-            practical user flows, and buildable digital products.
+            I shape business ideas into practical app concepts, clear user flows, and buildable first versions.
+            I am early in my degree, but I think like a builder: find the problem, define the product, ship the first useful version.
           </p>
 
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="mailto:saimbashirkhan25@gmail.com">
+            <a class="button button-primary" href="#projects">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v14H4z"></path>
+                <path d="M8 9h8M8 13h5"></path>
+              </svg>
+              View Work Style
+            </a>
+            <a class="button button-secondary" href="mailto:saimbashirkhan25@gmail.com">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M4 6h16v12H4z"></path>
                 <path d="m4 7 8 6 8-6"></path>
               </svg>
-              Email Saim
-            </a>
-            <a class="button button-secondary" href="#strengths">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 5v14M5 12h14"></path>
-              </svg>
-              View Strengths
+              Get In Touch
             </a>
           </div>
 
-          <div class="signal-strip" aria-label="Profile highlights">
+          <div class="hero-stats" aria-label="Profile summary">
             <div>
-              <strong>Business First</strong>
-              <span>Ideas shaped around users, markets, and practical value.</span>
+              <strong>4th</strong>
+              <span>semester student</span>
             </div>
             <div>
-              <strong>Build Ready</strong>
-              <span>Comfortable moving from concept to interface to working app.</span>
+              <strong>MVP</strong>
+              <span>prototype mindset</span>
             </div>
             <div>
-              <strong>Early Talent</strong>
-              <span>4th-semester energy with unusually mature product instincts.</span>
+              <strong>Product</strong>
+              <span>and business sense</span>
             </div>
           </div>
         </div>
-
-        <aside class="portrait-area" aria-label="Profile photo area">
-          <div class="portrait-frame">
-            <img
-              id="profilePhoto"
-              src="assets/profile-placeholder.svg"
-              data-real-src="assets/profile.jpg"
-              alt="Saim Bashir profile placeholder"
-            >
-          </div>
-          <p class="portrait-note">Add the final photo as <strong>assets/profile.jpg</strong>.</p>
-        </aside>
       </section>
 
-      <section id="strengths" class="section-wrap">
+      <section id="about" class="section about-section">
         <div class="section-heading">
-          <p class="section-kicker">Where he stands out</p>
-          <h2>Useful talent for teams that care about product speed.</h2>
+          <p class="eyebrow">About</p>
+          <h2>Young enough to learn fast. Serious enough to think in products.</h2>
         </div>
 
-        <div class="strength-grid">
-          <article class="strength-card">
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              Saim Bashir is a 4th-semester student with a strong instinct for business ideas and app development.
+              His strongest angle is not only writing code, but understanding why a product should exist, who it is for,
+              and what the first useful version should do.
+            </p>
+            <p>
+              For companies, that makes him a strong candidate for internships, junior app-building work, product support,
+              and prototype-heavy teams where curiosity, speed, and product judgment matter.
+            </p>
+            <div class="quick-tags" aria-label="Highlights">
+              <span>Business ideas</span>
+              <span>App concepts</span>
+              <span>User flows</span>
+              <span>Fast learning</span>
+            </div>
+          </div>
+
+          <div class="terminal-card" aria-label="Profile summary as code">
+            <div class="terminal-top">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>saim@portfolio:~</strong>
+            </div>
+            <pre><code>$ cat about.json
+{
+  "name": "Saim Bashir",
+  "email": "saimbashirkhan25@gmail.com",
+  "semester": "4th semester",
+  "focus": [
+    "business ideas",
+    "app development",
+    "product thinking",
+    "MVP execution"
+  ],
+  "status": "open to opportunities"
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="focus" class="section focus-section">
+        <div class="section-heading">
+          <p class="eyebrow">Focus</p>
+          <h2>Where Saim can create value right now.</h2>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card">
             <span class="card-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 19V5h16v14H4Z"></path>
-                <path d="M8 9h8M8 13h5"></path>
+                <path d="M12 2 4 7v10l8 5 8-5V7l-8-5Z"></path>
+                <path d="M12 22V12M4 7l8 5 8-5"></path>
               </svg>
             </span>
-            <h3>App Development</h3>
-            <p>Builds clean, usable app experiences from rough ideas, focusing on what users actually need first.</p>
+            <h3>MVP Prototyping</h3>
+            <p>Turning a rough idea into a simple first version that can be shown, tested, and improved.</p>
           </article>
 
-          <article class="strength-card">
+          <article class="focus-card">
             <span class="card-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M4 18c4-8 8-12 16-12"></path>
@@ -119,91 +172,172 @@
                 <path d="M4 18h16"></path>
               </svg>
             </span>
-            <h3>Business Ideas</h3>
-            <p>Thinks beyond code: market angle, monetization, positioning, and how an idea can become a real offer.</p>
+            <h3>Business Validation</h3>
+            <p>Looking at users, market angle, monetization, and why a product would be worth building.</p>
           </article>
 
-          <article class="strength-card">
+          <article class="focus-card">
             <span class="card-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z"></path>
+                <path d="M5 4h14v16H5z"></path>
+                <path d="M9 8h6M9 12h6M9 16h4"></path>
               </svg>
             </span>
-            <h3>Fast Execution</h3>
-            <p>Good fit for prototype-heavy work where a team needs someone who can test, adapt, and keep moving.</p>
+            <h3>App Interfaces</h3>
+            <p>Designing clean screens, flows, and interactions that make apps feel direct and easy to use.</p>
           </article>
         </div>
       </section>
 
-      <section id="approach" class="section-wrap approach-section">
+      <section id="projects" class="section projects-section">
         <div class="section-heading">
-          <p class="section-kicker">Working style</p>
-          <h2>From idea to first usable version.</h2>
+          <p class="eyebrow">Project Direction</p>
+          <h2>The kind of work he is built for.</h2>
         </div>
 
-        <div class="timeline" aria-label="Saim Bashir working approach">
-          <article class="timeline-item">
-            <span>01</span>
+        <div class="project-list">
+          <article class="project-item">
+            <div class="project-index">01</div>
             <div>
-              <h3>Clarify the opportunity</h3>
-              <p>Start with the customer, the pain point, and the business reason the product should exist.</p>
+              <p class="project-label">Startup MVP</p>
+              <h3>From idea to first customer-facing app</h3>
+              <p>
+                Useful for founders or small teams who need a builder who can understand the business goal,
+                reduce the feature set, and help create a practical first release.
+              </p>
+              <div class="stack-list">
+                <span>Product scoping</span>
+                <span>User flow</span>
+                <span>Interface design</span>
+                <span>Prototype build</span>
+              </div>
             </div>
           </article>
-          <article class="timeline-item">
-            <span>02</span>
+
+          <article class="project-item">
+            <div class="project-index">02</div>
             <div>
-              <h3>Shape the product</h3>
-              <p>Translate the idea into flows, screens, features, and a realistic first version.</p>
+              <p class="project-label">Business Tools</p>
+              <h3>Simple internal apps and dashboards</h3>
+              <p>
+                Good fit for lightweight tools that organize information, simplify repeat work, or make a small process easier to manage.
+              </p>
+              <div class="stack-list">
+                <span>Admin flows</span>
+                <span>Dashboards</span>
+                <span>Forms</span>
+                <span>Automation ideas</span>
+              </div>
             </div>
           </article>
-          <article class="timeline-item">
-            <span>03</span>
+
+          <article class="project-item">
+            <div class="project-index">03</div>
             <div>
-              <h3>Build and improve</h3>
-              <p>Create the app, collect feedback, and keep tightening the experience until it feels useful.</p>
+              <p class="project-label">Product Thinking</p>
+              <h3>Business ideas shaped into buildable plans</h3>
+              <p>
+                Saim is especially strong at spotting product angles, asking what the user actually needs, and turning scattered ideas into a clearer roadmap.
+              </p>
+              <div class="stack-list">
+                <span>Idea validation</span>
+                <span>Feature priority</span>
+                <span>Market angle</span>
+                <span>Launch plan</span>
+              </div>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section-wrap company-section">
-        <div class="company-panel">
+      <section id="skills" class="section skills-section">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>A practical mix of product, business, and development instincts.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3>Product & Business</h3>
+            <div class="skill-tags">
+              <span>Business ideas</span>
+              <span>Customer problems</span>
+              <span>MVP planning</span>
+              <span>Feature prioritization</span>
+              <span>Monetization thinking</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>App Building</h3>
+            <div class="skill-tags">
+              <span>Responsive web pages</span>
+              <span>App interfaces</span>
+              <span>User flows</span>
+              <span>Forms and dashboards</span>
+              <span>GitHub Pages</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Execution</h3>
+            <div class="skill-tags">
+              <span>Fast learning</span>
+              <span>Clear communication</span>
+              <span>Prototype feedback</span>
+              <span>Iteration</span>
+              <span>Ownership mindset</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section education-section">
+        <div class="education-panel">
           <div>
-            <p class="section-kicker">For companies</p>
-            <h2>A junior profile with founder-style thinking.</h2>
+            <p class="eyebrow">Education</p>
+            <h2>Currently in the 4th semester.</h2>
           </div>
-          <p>
-            Saim is early in his academic journey, but his strongest value is the combination companies often
-            need in young talent: curiosity, product sense, business thinking, and the ability to start building.
-          </p>
+          <div class="education-copy">
+            <p>
+              Saim is still early in his academic path, which is exactly why his profile is interesting:
+              he already shows the kind of product instinct companies usually expect much later.
+            </p>
+            <div class="education-line">
+              <span>Current stage</span>
+              <strong>Undergraduate student, 4th semester</strong>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="contact-section">
+      <section id="contact" class="section contact-section">
         <div class="contact-copy">
-          <p class="section-kicker">Contact</p>
-          <h2>Open to internships, app projects, and product-focused opportunities.</h2>
-          <p>For opportunities, collaborations, or interviews, reach Saim directly by email.</p>
+          <p class="eyebrow">Contact</p>
+          <h2>Interested in Saim for an internship, project, or junior builder role?</h2>
+          <p>Reach out directly. Short, clear opportunities are easiest to evaluate quickly.</p>
         </div>
 
-        <a class="contact-card" href="mailto:saimbashirkhan25@gmail.com" aria-label="Email Saim Bashir">
-          <span class="contact-icon">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M4 6h16v12H4z"></path>
-              <path d="m4 7 8 6 8-6"></path>
-            </svg>
-          </span>
-          <span>
-            <strong>saimbashirkhan25@gmail.com</strong>
-            <small>Send an email</small>
-          </span>
-        </a>
+        <div class="contact-actions">
+          <a class="contact-card" href="mailto:saimbashirkhan25@gmail.com">
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>saimbashirkhan25@gmail.com</strong>
+              <small>Email Saim Bashir</small>
+            </span>
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>© <span id="year"></span> Saim Bashir</span>
-      <a href="mailto:saimbashirkhan25@gmail.com">saimbashirkhan25@gmail.com</a>
+      <a href="#top">Back to top</a>
     </footer>
 
     <script src="script.js"></script>

@@ -1,9 +1,9 @@
 # Profile Photo
 
-Place Saim Bashir's final profile photo here as:
+Saim Bashir's current profile photo is:
 
 ```text
-assets/profile.jpg
+assets/saim_picture.png
 ```
 
-The homepage is already wired to use that file automatically when it exists. A portrait-oriented image works best.
+Replace that file to update the portrait.

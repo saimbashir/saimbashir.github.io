@@ -277,6 +277,39 @@ h1 span {
   color: transparent;
 }
 
+.typing-heading {
+  min-height: 1.08em;
+}
+
+.typing-heading .typed-prefix {
+  background: none;
+  color: var(--text);
+}
+
+.typing-heading .typed-name {
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 72%, #34d399));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 0.08em;
+  height: 0.82em;
+  margin-left: 0.09em;
+  border-radius: 999px;
+  background: var(--accent);
+  transform: translateY(0.08em);
+  animation: cursor-blink 900ms steps(2, start) infinite;
+}
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 h2 {
   font-size: 2.45rem;
   font-weight: 850;

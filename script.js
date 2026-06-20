@@ -1,6 +1,8 @@
 const root = document.documentElement;
 const themeToggle = document.querySelector(".theme-toggle");
 const year = document.querySelector("#year");
+const typingHeading = document.querySelector(".typing-heading");
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function applyTheme(theme) {
   root.dataset.theme = theme;
@@ -22,7 +24,48 @@ if (year) {
   year.textContent = new Date().getFullYear();
 }
 
-const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (typingHeading) {
+  const prefixTarget = typingHeading.dataset.prefix || "";
+  const nameTarget = typingHeading.dataset.name || "";
+  const prefixEl = typingHeading.querySelector(".typed-prefix");
+  const nameEl = typingHeading.querySelector(".typed-name");
+  const cursorEl = typingHeading.querySelector(".typing-cursor");
+
+  function renderTypedText(prefix, name) {
+    if (prefixEl) {
+      prefixEl.textContent = prefix;
+    }
+
+    if (nameEl) {
+      nameEl.textContent = name;
+    }
+  }
+
+  if (reduceMotion) {
+    renderTypedText(prefixTarget, nameTarget);
+    if (cursorEl) {
+      cursorEl.style.display = "none";
+    }
+  } else {
+    const fullText = `${prefixTarget}${nameTarget}`;
+    let index = 0;
+
+    function typeNextCharacter() {
+      index += 1;
+      const currentText = fullText.slice(0, index);
+      renderTypedText(
+        currentText.slice(0, prefixTarget.length),
+        currentText.slice(prefixTarget.length)
+      );
+
+      if (index < fullText.length) {
+        window.setTimeout(typeNextCharacter, index < prefixTarget.length ? 55 : 72);
+      }
+    }
+
+    window.setTimeout(typeNextCharacter, 260);
+  }
+}
 
 if (!reduceMotion) {
   let ticking = false;
